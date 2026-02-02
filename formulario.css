@@ -1,0 +1,82 @@
+body{
+    background-image: url("https://thumbs.dreamstime.com/b/fondo-fucsia-de-las-flores-papel-vivo-florece-el-decorativo-con-la-mariposa-139257249.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+}
+.formulario{
+    width: 280px;
+    margin-top: 50%;
+    margin-right: 20px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    background-color: rgb(204 130 204);
+    box-shadow: 0px 0px 30px 10px #c74a60;
+}
+.formulario button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px
+}
+input{
+    background-color: rgb(241, 241, 241);
+    border: 2px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 6px;
+    border-radius: 10px;
+}
+textarea{
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    font-family: 'Arial Black', Arial, sans-serif;
+    color: rgb(39, 39, 41);
+    text-align: center;
+    text-decoration: underline;
+    font-size: 32px;
+}
+label{
+    text-decoration: underline;
+    font-size: 20px;
+    cursor: auto;
+}
+.formato{
+    display: grid;
+    font-weight: bold;
+    gap: 6px;
+}
+#nombre{
+    height: 20px;
+}
+#contacto{
+    height: 20px;
+}
+#mensaje{
+    height: 100px;
+    resize: none;
+}
+.boton{
+    width: 264px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    font-style: italic;
+    font-weight: bold;
+    cursor: pointer;
+}
+.boton:hover{
+    background-color: rgb(207, 162, 169);
+    transition: 200ms;
+}
+.boton:focus{
+    background-color: aliceblue;
+}
