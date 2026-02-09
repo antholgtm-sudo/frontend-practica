@@ -40,11 +40,13 @@ h1{
     text-align: center;
     text-decoration: underline;
     font-size: 32px;
+    caret-color:transparent;
 }
 label{
     text-decoration: underline;
     font-size: 20px;
     cursor: auto;
+    caret-color:transparent;
 }
 .formato{
     display: grid;
